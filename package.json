@@ -9,10 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@emotion/cache": "^11.11.0",
-    "@emotion/react": "^11.11.4",
-    "@emotion/styled": "^11.11.5",
-    "@mui/material": "^5.15.21",
+    "@emotion/cache": "^11.13.1",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^5.16.6",
+    "@mui/material": "^5.16.6",
+
     "next": "14.2.4",
     "react": "^18",
     "react-dom": "^18"
@@ -21,8 +23,14 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "eslint": "^8",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.57.0",
     "eslint-config-next": "14.2.4",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "3.3.3",
     "typescript": "^5"
   }
 }
